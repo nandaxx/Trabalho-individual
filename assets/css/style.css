@@ -1,0 +1,301 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #dfdbdb;
+}
+
+.conteiner-header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #6b7474;
+    padding: 20px;
+    font-size: 15px;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}
+
+a {
+    color: black;
+
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    width: 10%;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+li {
+    display: inline;
+    padding: 0.5em;
+    list-style-type: none;
+}
+
+.icone {
+    width: 20;
+    height: 5rem;
+    margin-right: 20%;
+}
+
+.area-superior {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    align-items: end;
+    justify-content: center;
+    text-align: end;
+}
+
+h1 {
+    text-align: center;
+    display: flex;
+}
+
+h2 {
+    text-align: left;
+}
+
+.sobre1 {
+    width: 20rem;
+    margin-top: 18%;
+    margin-left: 13%;
+}
+
+.categ1 {
+    width: 20rem;
+    margin-top: 18%;
+    margin-left: 18%;
+}
+
+.log {
+    width: 80%;
+    height: 8rem;
+}
+
+.sob {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    margin-right: 20%;
+}
+
+.log1 {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.log2 {
+    width: 125%;
+    border: 1px solid black;
+    margin: auto;
+}
+
+.cate {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    margin-right: 20%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cat {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 1px solid black;
+}
+
+.login1 {
+    text-align: center;
+    margin-top: 18%;
+}
+
+.frase {
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.categoria {
+    margin: auto;
+    padding: 0;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 80rem;
+    gap: 5rem;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border-radius: 10px;
+    width: 17rem;
+    height: 29rem;
+}
+
+.conteiner-card {
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 28rem;
+    width: 16rem;
+    text-decoration: underline;
+    font-size: 2rem;
+    border-style: double;
+    border-radius: 10px;
+}
+
+.conteiner-botao {
+    flex-wrap: wrap;
+    padding: 8px 17px;
+    display: flex;
+    font-size: 18px;
+    margin: 18px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #8c9494;
+    border: 2px solid #8c9494;
+    border-radius: 12%;
+}
+
+.conteiner-botao:hover {
+    background-color: #6a7070;
+    border: 2px solid #6a7070;
+}
+
+.img {
+    width: 100%;
+    height: 17rem;
+}
+
+.sobre {
+
+    margin: auto;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    height: 12rem;
+}
+
+.foto {
+    width: 50%;
+
+}
+
+.minhaimg {
+    margin-bottom: 3%;
+    border-radius: 50%;
+    width: 45%;
+    height: 11rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.formulario {
+    margin: 0;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 18rem;
+
+}
+
+.formulario form {
+    flex-wrap: wrap;
+    border: 1.5px solid #4e4c4c;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 10%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 80%;
+}
+
+.formulario form input[type="email"],
+.formulario form input[type="name"] {
+    font-size: 1rem;
+    padding: 0.3rem;
+    border: 1px solid #858084;
+    border-radius: 5px;
+}
+
+.formulario form input[type="submit"] {
+    width: 50%;
+    margin: auto;
+    background-color: #858084;
+    padding: 0.5rem;
+    border-radius: 15px;
+    border: 0.20rem solid #858084;
+    font-weight: bold;
+    color: #fff;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.formulario form input[type="submit"]:hover {
+    border: 0.20rem solid #757275;
+    background-color: #757275;
+}
+
+.rodape {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+}
+
+.r {
+    border: 1px solid black;
+    margin: 0;
+    width: 100%;
+}
+
+.ro {
+
+    display: flex;
+    text-align: left;
+    align-items: left;
+}
+
+.esquerda {
+    width: 50%;
+    justify-content: left;
+
+}
+
+.direita {
+    width: 50%;
+    justify-content: right;
+
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+    justify-content: right;
+}
